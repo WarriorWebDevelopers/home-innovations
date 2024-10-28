@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #160404;
     --foreground: #ededed;
   }
 }
@@ -24,4 +24,24 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+#scroll-up-button {
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  outline: none; /* Remove outline */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.fixed {
+  z-index: 1000; /* Make sure the button is on top */
+}
+
+/* Optional: Add hover effect specifically for the scroll-up button */
+#scroll-up-button:hover {
+  background-color: #0056b3; /* Change to a darker blue on hover */
+}
+
+html {
+  scroll-behavior: smooth;
 }
