@@ -23,7 +23,7 @@ const ProjectSection = () => {
     if (selectedImageIndex !== null) {
       setSelectedImageIndex((prevIndex) => {
         // Ensure prevIndex is a valid number
-        return (prevIndex + 1) % filteredProjects.length;
+        return (prevIndex! + 1) % filteredProjects.length;
       });
     }
   };
@@ -32,7 +32,7 @@ const ProjectSection = () => {
     if (selectedImageIndex !== null) {
       setSelectedImageIndex((prevIndex) => {
         // Ensure prevIndex is a valid number
-        return (prevIndex - 1 + filteredProjects.length) % filteredProjects.length;
+        return (prevIndex! - 1 + filteredProjects.length) % filteredProjects.length;
       });
     }
   };

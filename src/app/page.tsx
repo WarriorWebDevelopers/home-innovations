@@ -9,9 +9,6 @@ import Services from "@/components/Services";
 import Stat from "@/components/Stat";
 import ScrollUpButton from "@/components/scrollUpButton";
 
-
-import Image from "next/image";
-
 export default function Home() {
   return (
     <>

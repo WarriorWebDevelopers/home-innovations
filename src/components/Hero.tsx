@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-import drywallFraming from "../assets/images/drywall-framing.jpg";
 
 const Hero = () => {
     return (
@@ -33,14 +31,14 @@ const Hero = () => {
                         Welcome to Rosales Home Innovations
                     </h1>
                     <p className="mt-4 text-lg leading-8 text-gray-600">
-                        Adding a Lifetime's Value Today!
+                        Adding a Lifetime&apos;s Value Today!
                     </p>
-                    <p className="mt-2 text-md leading-7 text-gray-500">
+                    <p className='mt-2 text-md leading-7 text-gray-500'>
                         We transform your house into a dream home, offering unparalleled craftsmanship, trusted materials, and a commitment to excellence.
                     </p>
                     <div className="mt-8 flex items-center justify-center gap-x-6">
                         <a
-                            href="#projects"
+                            href="tel:+19316393561"
                             className="rounded-md bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
                             Get Your Free Quote

@@ -1,4 +1,4 @@
-import { WrenchIcon, TrophyIcon, TagIcon, UserGroupIcon, StarIcon, FolderIcon, UsersIcon, RectangleGroupIcon, ClipboardDocumentListIcon, PaintBrushIcon, HomeModernIcon, PlayCircleIcon, PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/outline'
+import { WrenchIcon, TrophyIcon, TagIcon, UserGroupIcon, StarIcon, FolderIcon, UsersIcon, RectangleGroupIcon, ClipboardDocumentListIcon, PaintBrushIcon, HomeModernIcon, PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/outline'
 
 // Navigation Links
 export const navigation = [
@@ -26,7 +26,7 @@ export const navigation = [
 
   // Call to Actions Links
   export const callsToAction = [
-    { name: 'Call Us', href: 'tel:+9316393561', icon: PhoneIcon }, // Replace with actual phone number
+    { name: 'Call Us', href: 'tel:+19316393561', icon: PhoneIcon }, // Replace with actual phone number
     { name: 'Email Us', href: 'mailto:rosalesinnovations@gmail.com', icon: EnvelopeIcon }, // Replace with actual email
 ]
 
